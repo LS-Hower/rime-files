@@ -1,0 +1,217 @@
+# Rime 词典: wubi86.skana
+# 编码：utf-8
+#
+# 作者：LS_Hower <ls_hower@qq.com>
+
+---
+name: wubi86.skana
+version: "2022-12-17"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
+
+
+#假名。。。。神经病啊（ 2022-08-06
+
+ぁ	fnv	2000000
+あ	fnv	2000000
+ぃ	nyy	2000000
+い	nyy	2000000
+ぅ	ynb	2000000
+う	ynb	2000000
+ぇ	ynb	2000000
+え	ynb	2000000
+ぉ	gnyi	2000000
+お	gnyi	2000000
+か	lyy	2000000
+が	lyuy	2000000
+き	fhnb	2000000
+ぎ	fhnu	2000000
+く	nnll	2000000
+ぐ	nuy	2000000
+け	ndt	2000000
+げ	nduy	2000000
+こ	nnb	2000000
+ご	nnuu	2000000
+さ	ghnb	2000000
+ざ	ghnu	2000000
+し	nnll	2000000
+じ	nui	2000000
+す	gni	2000000
+ず	gnui	2000000
+せ	fnv	2000000
+ぜ	fnui	2000000
+そ	nnll	2000000
+ぞ	nui	2000000
+た	ffg	2000000
+だ	ffuy	2000000
+ち	gnv	2000000
+ぢ	gnui	2000000
+っ	nnll	2000000
+つ	nnll	2000000
+づ	nui	2000000
+て	nnll	2000000
+で	nui	2000000
+と	hnv	2000000
+ど	hnui	2000000
+な	fynv	2000000
+に	ngnn	2000000
+ぬ	hni	2000000
+ね	hni	2000000
+の	nnll	2000000
+は	ngnn	2000000
+ば	ngnu	2000000
+ぱ	ngnn	2000000
+ひ	nnll	2000000
+び	nui	2000000
+ぴ	nnv	2000000
+ふ	ynui	2000000
+ぶ	ynuu	2000000
+ぷ	ynun	2000000
+へ	nnll	2000000
+べ	nui	2000000
+ぺ	nnv	2000000
+ほ	nfnn	2000000
+ぼ	nfnu	2000000
+ぽ	nfnn	2000000
+ま	fni	2000000
+み	nte	2000000
+む	gnyi	2000000
+め	hnv	2000000
+も	nfd	2000000
+ゃ	nyhk	2000000
+や	nyhk	2000000
+ゅ	nte	2000000
+ゆ	nte	2000000
+ょ	gnv	2000000
+よ	gnv	2000000
+ら	ynb	2000000
+り	ntt	2000000
+る	nnll	2000000
+れ	hnv	2000000
+ろ	nnll	2000000
+ゎ	hnv	2000000
+わ	hnv	2000000
+ゐ	nnll	2000000
+ゑ	nnll	2000000
+を	gnnv	2000000
+ん	nnll	2000000
+ゔ	ynui	2000000
+ゕ	lyy	2000000
+ゖ	ndt	2000000
+゙	uyy	2000000
+゚	nnll	2000000
+゛	uyy	2000000
+゜	nnll	2000000
+ゝ	nnll	2000000
+ゞ	nui	2000000
+ゟ	gnv	2000000
+゠	fgg	2000000
+ァ	ntr	2000000
+ア	ntr	2000000
+ィ	wth	2000000
+イ	wth	2000000
+ゥ	hhnv	2000000
+ウ	hhnv	2000000
+ェ	aaaa	2000000
+エ	aaaa	2000000
+ォ	fte	2000000
+オ	fte	2000000
+カ	ltn	2000000
+ガ	lui	2000000
+キ	fhk	2000000
+ギ	fhui	2000000
+ク	qtn	2000000
+グ	qui	2000000
+ケ	tte	2000000
+ゲ	ttui	2000000
+コ	nng	2000000
+ゴ	nui	2000000
+サ	fte	2000000
+ザ	ftui	2000000
+シ	iyyg	2000000
+ジ	iui	2000000
+ス	cny	2000000
+ズ	cui	2000000
+セ	nnv	2000000
+ゼ	nnui	2000000
+ソ	uyt	2000000
+ゾ	uui	2000000
+タ	qtny	2000000
+ダ	qui	2000000
+チ	tde	2000000
+ヂ	tdui	2000000
+ッ	iyyt	2000000
+ツ	iyyt	2000000
+ヅ	iui	2000000
+テ	fte	2000000
+デ	ftui	2000000
+ト	hhy	2000000
+ド	hui	2000000
+ナ	dgt	2000000
+ニ	fgg	2000000
+ヌ	cccc	2000000
+ネ	pyi	2000000
+ノ	ttll	2000000
+ハ	wty	2000000
+バ	wui	2000000
+パ	wnv	2000000
+ヒ	gnv	2000000
+ビ	gnui	2000000
+ピ	gnnv	2000000
+フ	nnll	2000000
+ブ	nui	2000000
+プ	nnv	2000000
+ヘ	nnll	2000000
+ベ	nui	2000000
+ペ	nnv	2000000
+ホ	sghy	2000000
+ボ	sui	2000000
+ポ	snv	2000000
+マ	cny	2000000
+ミ	iyyy	2000000
+ム	cny	2000000
+メ	qty	2000000
+モ	fav	2000000
+ャ	nhk	2000000
+ヤ	nhk	2000000
+ュ	nng	2000000
+ユ	nng	2000000
+ョ	vngg	2000000
+ヨ	vngg	2000000
+ラ	gnb	2000000
+リ	jht	2000000
+ル	qtn	2000000
+レ	nnll	2000000
+ロ	kkkk	2000000
+ヮ	hnv	2000000
+ワ	hnv	2000000
+ヰ	ghfk	2000000
+ヱ	nhgd	2000000
+ヲ	fte	2000000
+ン	uyg	2000000
+ヴ	hhnu	2000000
+ヵ	ltn	2000000
+ヶ	tte	2000000
+ヷ	hnui	2000000
+ヸ	ghfu	2000000
+ヹ	nhgu	2000000
+ヺ	ftui	2000000
+・	yyll	2000000
+ー	ggll	2000000
+ヽ	yyll	2000000
+ヾ	yui	2000000
+ヿ	nnll	2000000

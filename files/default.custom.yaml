@@ -1,0 +1,23 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Fri Jul 11 23:14:13 2025"
+  rime_version: 1.11.2
+patch:
+  "key_binder/bindings":
+    - {accept: "Control+Shift+F", toggle: simplification, when: always}
+    - {accept: "Shift+Space", toggle: full_shape, when: always}
+    - {accept: "Control+Shift+Z", toggle: extended_charset, when: always}
+  "menu/page_size": 5
+  schema_list:
+    - {schema: wubi86}
+    - {schema: luna_pinyin}
+    - {schema: double_pinyin}
+    - {schema: kana}
+    - {schema: liangfen}
+    - {schema: stroke}
+    - {schema: japanese}
+    - {schema: terra_pinyin}
+  "switcher/hotkeys":
+    - "Control+grave"

@@ -1,0 +1,57 @@
+# Rime dictionary: wubi86.custom
+# encoding: utf-8
+#
+# Changelog
+# Gong Chen <chen.sst@gmail.com>
+#     - Convert to Rime dictionary format.
+# Yu Yuwei <acevery@gmail.com>
+#     - Use original level 1 and 2 JianMa.
+# Yu Yuwei <acevery@gmail.com>
+#     - Update to Jidian 6, provided by Chen Xing
+# Yu Yuwei <acevery@gmail.com>
+#     - Add freqs from google.
+#     - Fix punctuation freqs
+# Chen Xing <cxcxcxcx@gmail.com>
+#     - Convert from JidianWubi table
+#
+# Original table author
+# Wozy <wozy.in@gmail.com>
+# 
+# 2022-07-10
+# LS Hower's wubi86.custom.dict.yaml.
+
+---
+name: wubi86.custom
+version: "2022-07-10"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+import_tables:
+  - wubi86.basiccmpl
+  - wubi86.extacmpl
+  - wubi86.extbcmpl
+  - wubi86.extc
+  - wubi86.extccmpl
+  - wubi86.extd
+  - wubi86.exte
+  - wubi86.extf
+  - wubi86.extg
+  - wubi86.exth
+  - wubi86.hower
+  - wubi86.touhou
+  - wubi86.zkana
+  - wubi86.hower_private
+...

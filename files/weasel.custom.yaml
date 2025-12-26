@@ -1,0 +1,157 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Dec 26 08:29:41 2025"
+  rime_version: 1.11.2
+patch:
+  "preset_color_schemes/Satori":
+    author: Kaku_
+    back_color: 0xE1DFFC
+    border_color: 0xB9ADE8
+    candidate_text_color: 0x5950C7
+    comment_text_color: 0x583A99
+    hilited_back_color: 0xDBD2F7
+    hilited_candidate_back_color: 0xB5B3F8
+    hilited_candidate_text_color: 0x7446A4
+    hilited_text_color: 0xBD91DF
+    name: "粉觉"
+    text_color: 0x7745A9
+  "preset_color_schemes/black_and_white":
+    author: LS_Hower
+    back_color: 0x000000
+    border_color: 0xFFFFFF
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFFFFFF
+    hilited_back_color: 0xFFFFFF
+    hilited_candidate_back_color: 0xFFFFFF
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_candidate_text_color: 0x000000
+    hilited_comment_text_color: 0x000000
+    hilited_label_color: 0x000000
+    hilited_text_color: 0x000000
+    label_color: 0xFFFFFF
+    name: "黑白"
+    text_color: 0xFFFFFF
+  "preset_color_schemes/junko":
+    author: LS_Hower
+    back_color: 0x000000
+    border_color: 0x00FFFF
+    candidate_text_color: 0x00FFFF
+    comment_text_color: 0xA44200
+    hilited_back_color: 0x0086F8
+    hilited_candidate_back_color: 0xA649C2
+    hilited_candidate_label_color: 0xA44200
+    hilited_candidate_text_color: 0x00FFFF
+    hilited_comment_text_color: 0xA44200
+    hilited_label_color: 0x0310E8
+    hilited_text_color: 0x000000
+    label_color: 0x0310E8
+    name: "纯狐"
+    text_color: 0x00FFFF
+  "preset_color_schemes/osu":
+    author: LS_Hower
+    back_color: 0xEE6688
+    border_color: 0xEE6688
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0xFFFFFF
+    hilited_back_color: 0xEE6688
+    hilited_candidate_back_color: 0xEE6688
+    hilited_candidate_text_color: 0xF0ACF2
+    hilited_text_color: 0xFFFFFF
+    name: osu
+    text_color: 0xFFFFFF
+  "preset_color_schemes/reisen":
+    author: LS_Hower
+    back_color: 0xF3EFFF
+    border_color: 0x8664F3
+    candidate_text_color: 0x8664F3
+    comment_text_color: 0x8664F3
+    hilited_back_color: 0x8664F3
+    hilited_candidate_back_color: 0xB776C7
+    hilited_candidate_label_color: 0x8664F3
+    hilited_candidate_text_color: 0xF3EFFF
+    hilited_comment_text_color: 0xF3EFFF
+    hilited_label_color: 0xF3EFFF
+    hilited_text_color: 0xF3EFFF
+    label_color: 0x8664F3
+    name: "铃仙"
+    text_color: 0x8664F3
+  "preset_color_schemes/tabula_rasa":
+    author: LS_Hower
+    back_color: 0xFFFFFF
+    border_color: 0xFFFFFF
+    candidate_text_color: 0x808080
+    comment_text_color: 0xFFFFFF
+    hilited_back_color: 0xFFFFFF
+    hilited_candidate_back_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    name: "Tabula rasa ～ 空白少女"
+    text_color: 0xFFFFFF
+  "preset_color_schemes/touhou_dialog":
+    author: LS_Hower
+    back_color: 0xA9EEFF
+    border_color: 0x000000
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    hilited_back_color: 0xA9EEFF
+    hilited_candidate_back_color: 0xA9EEFF
+    hilited_candidate_text_color: 0x000088
+    hilited_text_color: 0x000000
+    name: "东方风对话框"
+    text_color: 0x000000
+  "preset_color_schemes/unicode":
+    author: LS_Hower
+    back_color: 0xC0E0F0
+    border_color: 0x999999
+    candidate_text_color: 0x0000CC
+    comment_text_color: 0x000000
+    hilited_back_color: 0x000099
+    hilited_candidate_back_color: 0x0000CC
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    name: Unicode
+    text_color: 0x000088
+  "preset_color_schemes/vampire":
+    author: "LS Hower"
+    back_color: 0x181818
+    border_color: 0x0000FF
+    candidate_text_color: 0x0000FF
+    comment_text_color: 0x0000A0
+    hilited_back_color: 0x000060
+    hilited_candidate_back_color: 0x000060
+    hilited_candidate_label_color: 0x0000FF
+    hilited_candidate_text_color: 0x0000FF
+    hilited_comment_text_color: 0x0000C0
+    hilited_label_color: 0x0000FF
+    hilited_text_color: 0x0000FF
+    label_color: 0x0000FF
+    name: Vampire
+    text_color: 0x0000FF
+  "style/color_scheme": luna
+  "style/comment_font_face": "Courier New"
+  "style/comment_font_point": 20
+  "style/display_tray_icon": true
+  "style/font_face": "LXGW WenKai Mono GB Screen:0000:ffff, TH-Tshyn-P1:10000:1ffff, TH-Tshyn-P2:20000:2ffff, TH-Tshyn-P1:30000:3ffff"
+  "style/font_point": 24
+  "style/horizontal": false
+  "style/label_font_face": "Courier New"
+  "style/label_font_point": 20
+  "style/layout/border_width": 3
+  "style/layout/candidate_spacing": 8
+  "style/layout/corner_radius": 5
+  "style/layout/enhanced_position": true
+  "style/layout/hilite_padding": 2
+  "style/layout/hilite_spacing": 4
+  "style/layout/hilited_corner_radius": 5
+  "style/layout/margin_x": 12
+  "style/layout/margin_y": 12
+  "style/layout/max_width": 480
+  "style/layout/min_height": 0
+  "style/layout/min_width": 160
+  "style/layout/round_corner": 3
+  "style/layout/spacing": 10
+  "style/vertical_text": false
+  "style/vertical_text_left_to_right": false
+  "style/vertical_text_with_wrap": false

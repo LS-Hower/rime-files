@@ -1,0 +1,7 @@
+patch:
+  translator/dictionary: wubi86.custom
+  translator/enable_user_dict: false
+  translator/enable_sentence: false
+  speller/max_code_length: 4
+  speller/auto_select_unique_candidate: false
+  punctuator/import_preset: symbols.custom

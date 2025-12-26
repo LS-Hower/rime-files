@@ -1,0 +1,237 @@
+# Rime 词典: wubi86.zkana
+# 编码：utf-8
+#
+# 作者：LS_Hower <ls_hower@qq.com>
+
+---
+name: wubi86.zkana
+version: "2022-12-17"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
+
+ぁ	zla	200000
+あ	za	200000
+ぃ	zli	200000
+い	zi	200000
+ぅ	zlu	200000
+う	zu	200000
+ぇ	zle	200000
+え	ze	200000
+ぉ	zlo	200000
+お	zo	200000
+か	zka	200000
+が	zga	200000
+き	zki	200000
+ぎ	zgi	200000
+く	zku	200000
+ぐ	zgu	200000
+け	zke	200000
+げ	zge	200000
+こ	zko	200000
+ご	zgo	200000
+さ	zsa	200000
+ざ	zza	200000
+し	zsi	200000
+じ	zzi	200000
+す	zsu	200000
+ず	zzu	200000
+せ	zse	200000
+ぜ	zze	200000
+そ	zso	200000
+ぞ	zzo	200000
+た	zta	200000
+だ	zda	200000
+ち	zti	200000
+ぢ	zdi	200000
+っ	zltu	200000
+つ	ztu	200000
+づ	zdu	200000
+て	zte	200000
+で	zde	200000
+と	zto	200000
+ど	zdo	200000
+な	zna	200000
+に	zni	200000
+ぬ	znu	200000
+ね	zne	200000
+の	zno	200000
+は	zha	200000
+ば	zba	200000
+ぱ	zpa	200000
+ひ	zhi	200000
+び	zbi	200000
+ぴ	zpi	200000
+ふ	zhu	200000
+ぶ	zbu	200000
+ぷ	zpu	200000
+へ	zhe	200000
+べ	zbe	200000
+ぺ	zpe	200000
+ほ	zho	200000
+ぼ	zbo	200000
+ぽ	zpo	200000
+ま	zma	200000
+み	zmi	200000
+む	zmu	200000
+め	zme	200000
+も	zmo	200000
+ゃ	zlya	200000
+や	zya	200000
+ゅ	zlyu	200000
+ゆ	zyu	200000
+ょ	zlyo	200000
+よ	zyo	200000
+ら	zra	200000
+り	zri	200000
+る	zru	200000
+れ	zre	200000
+ろ	zro	200000
+ゎ	zlwa	200000
+わ	zwa	200000
+ゐ	zwi	200000
+ゑ	zwe	200000
+を	zwo	200000
+ん	zn	200000
+ゔ	zvu	200000
+ゕ	zlka	200000
+ゖ	zlke	200000
+゙	zmrk	200000
+゚	zmrk	200000
+゛	zmrk	200000
+゜	zmrk	200000
+ゝ	zmrk	200000
+ゞ	zmrk	200000
+ゟ	zmrk	200000
+゠	zmrk	200000
+
+ァ	zla	160000
+ア	za	160000
+ィ	zli	160000
+イ	zi	160000
+ゥ	zlu	160000
+ウ	zu	160000
+ェ	zle	160000
+エ	ze	160000
+ォ	zlo	160000
+オ	zo	160000
+カ	zka	160000
+ガ	zga	160000
+キ	zki	160000
+ギ	zgi	160000
+ク	zku	160000
+グ	zgu	160000
+ケ	zke	160000
+ゲ	zge	160000
+コ	zko	160000
+ゴ	zgo	160000
+サ	zsa	160000
+ザ	zza	160000
+シ	zsi	160000
+ジ	zzi	160000
+ス	zsu	160000
+ズ	zzu	160000
+セ	zse	160000
+ゼ	zze	160000
+ソ	zso	160000
+ゾ	zzo	160000
+タ	zta	160000
+ダ	zda	160000
+チ	zti	160000
+ヂ	zdi	160000
+ッ	zltu	160000
+ツ	ztu	160000
+ヅ	zdu	160000
+テ	zte	160000
+デ	zde	160000
+ト	zto	160000
+ド	zdo	160000
+ナ	zna	160000
+ニ	zni	160000
+ヌ	znu	160000
+ネ	zne	160000
+ノ	zno	160000
+ハ	zha	160000
+バ	zba	160000
+パ	zpa	160000
+ヒ	zhi	160000
+ビ	zbi	160000
+ピ	zpi	160000
+フ	zhu	160000
+ブ	zbu	160000
+プ	zpu	160000
+ヘ	zhe	160000
+ベ	zbe	160000
+ペ	zpe	160000
+ホ	zho	160000
+ボ	zbo	160000
+ポ	zpo	160000
+マ	zma	160000
+ミ	zmi	160000
+ム	zmu	160000
+メ	zme	160000
+モ	zmo	160000
+ャ	zlya	160000
+ヤ	zya	160000
+ュ	zlyu	160000
+ユ	zyu	160000
+ョ	zlyo	160000
+ヨ	zyo	160000
+ラ	zra	160000
+リ	zri	160000
+ル	zru	160000
+レ	zre	160000
+ロ	zro	160000
+ヮ	zlwa	160000
+ワ	zwa	160000
+ヰ	zwi	160000
+ヱ	zwe	160000
+ヲ	zwo	160000
+ン	zn	160000
+ヴ	zvu	160000
+ヵ	zlka	160000
+ヶ	zlke	160000
+ヷ	zva	160000
+ヸ	zvi	160000
+ヹ	zve	160000
+ヺ	zvo	160000
+・	zmrk	160000
+ー	zmrk	160000
+ヽ	zmrk	160000
+ヾ	zmrk	160000
+ヿ	zmrk	160000
+
+# 其他拼法
+
+し	zshi	180000
+じ	zji	180000
+ち	zchi	180000
+ぢ	zji	180000
+っ	zltsu	180000
+つ	ztsu	180000
+づ	zzu	180000
+ふ	zfu	180000
+ん	znn	180000
+
+シ	zshi	140000
+ジ	zji	140000
+チ	zchi	140000
+ヂ	zji	140000
+ッ	zltsu	140000
+ツ	ztsu	140000
+ヅ	zzu	140000
+フ	zfu	140000
+ン	znn	140000
