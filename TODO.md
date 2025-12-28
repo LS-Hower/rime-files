@@ -1,6 +1,3 @@
 - 尝试五笔单字流
 - 为 `touhou` 词库添加新作内容
 - 逐一比对，将 `hower_private` 词库内容集齐： `hower_private` = 旧 `touhou` + 旧 `hower` - 新 `touhou` - 新 `hower`
-- 重构 `fetch_from_local.py` ：
-    - 使用 `pathlib` 模块处理路径，代替 `os.path`
-    - 抽出函数式部分
