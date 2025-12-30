@@ -1,5 +1,5 @@
 patch:
-  translator/dictionary: wubi86.custom
+  translator/dictionary: wubi86.custom_single
   translator/enable_user_dict: false
   translator/enable_sentence: false
   speller/max_code_length: 4

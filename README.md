@@ -19,8 +19,10 @@
 - `wubi86.custom.yaml` —— 对 Rime 官方五笔输入方案（见上方引用）的补丁。
 - `wubi86.schema.yaml` —— Rime 官方五笔输入方案（见上方引用）。
 - `dicts/`
-    - `partial-wubi86.custom.yaml` —— 是 Rime 官方五笔（见上方引用）自带词库 `wubi86.dict.yaml` 的副本。除了对文件头部（`...` 之前的部分）作了修改之外，对于字词部分，只对“特性”和“我”、“兔子”和“句子”两对字词做过重排。这里只上传文件头部，不再上传字词部分。
     - `wubi86.109.dict.yaml` —— 其实是扩展区汉字码表项目中 `wubi86.extext.dict.yaml` （各汉字区的扩展部分）的前身。包含了一些曾经打错的外码。
+    - `wubi86.custom_single.dict.yaml` —— 使用脚本，对 `wubi86.custom.dict.yaml` 删去非单字的条目、自动追加注释后得到的词库。修改细节见该文件开头的注释说明。
+    - `wubi86.custom.dict.yaml` —— 对 `wubi86.dict.yaml` 修改过后得到的词库。修改细节见该文件开头的注释说明。
+    - `wubi86.dict.yaml` —— Rime 官方五笔输入方案（见上方引用）自带词库，2023 版。（[commit 链接](https://github.com/rime/rime-wubi/commit/152a0d3f3efe40cae216d1e3b338242446848d07)）
     - `wubi86.hower.dict.yaml` —— 为 Rime 官方五笔（见上方引用）自带词库添加的字词。
     - `wubi86.skana.dict.yaml` —— 一种将日文假名融入五笔词库的思路，将五笔的规则应用在假名的字形上。太抽象了所以没有用。
     - `wubi86.touhou.dict.yaml` —— 东方 Project 相关字词。
@@ -37,7 +39,6 @@
 - `user.yaml`
 - `weasel.yaml`
 - 用户输入习惯词库（各种 `userdb` ）。
-- `wubi86.dict.yaml` —— Rime 官方五笔输入方案（见上方引用）自带词库。
 - `wubi86.hower_private.dict.yaml` —— 明确不打算公开的字词。数量较少。
 
 以下文件包含在另一个仓库中，就是扩展区汉字码表（见上方引用）。
