@@ -8,8 +8,8 @@
 
 以下内容将引用两个仓库：
 
-- “Rime 官方五笔输入方案”：[rime/rime-wubi](https://github.com/rime/rime-wubi)。
-- “扩展区汉字码表”：[LS-Hower/rime-wubi86-ext](https://github.com/LS-Hower/rime-wubi86-ext)。
+- “Rime 官方五笔输入方案”：[`rime/rime-wubi`](https://github.com/rime/rime-wubi)。
+- “扩展区汉字码表”：[`LS-Hower/rime-wubi86-ext`](https://github.com/LS-Hower/rime-wubi86-ext)。
 
 ## 包含的文件
 
@@ -57,7 +57,7 @@
 
 它们是仍在更新的扩展区五笔词库。（虽然这个项目已经摆了至少一年半了，2025-12-26 留）
 
-## 补充说明：
+## 补充说明
 
 - (2026-01-10) 已经切换到了五笔单字输入。词库基本不会再更新了。
 - (2026-01-10) 以后可能会切换到“单字词库+小词库”的模式。小词库可能是手动积累的，也可能是从其他来源获取的。如果这样做了，将小词库也放在仓库里。
